@@ -1,5 +1,4 @@
 import { Flex, Text } from "@chakra-ui/react";
-import Link from "next/link";
 
 type LinkBoxProps = {
   websiteName: string;
@@ -7,7 +6,7 @@ type LinkBoxProps = {
 };
 
 const LinkBox = (linkProps: LinkBoxProps) => (
-  <Link href={linkProps.websiteUrl} target="_blank">
+  <a href={linkProps.websiteUrl} target="_blank" rel="noreferrer">
     <Flex
       alignItems="center"
       backgroundColor="blue.200"
@@ -23,7 +22,7 @@ const LinkBox = (linkProps: LinkBoxProps) => (
         {linkProps.websiteName}
       </Text>
     </Flex>
-  </Link>
+  </a>
 );
 
 export default LinkBox;
