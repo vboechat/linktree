@@ -1,30 +1,29 @@
 {
   "name": "vboechat-linktree",
-  "version": "1.0.0",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.5.2",
+    "@chakra-ui/react": "^2.5.5",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "framer-motion": "^10.6.0",
-    "next": "13.2.4",
-    "next-seo": "^5.15.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "framer-motion": "^10.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "18.15.3",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
     "@vboechat/eslint-config": "^1.2.1",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "typescript": "4.9.5"
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.38.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vite-plugin-pwa": "^0.14.7"
   }
 }

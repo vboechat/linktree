@@ -1,3 +1,3 @@
 {
-  "extends": ["next/core-web-vitals", "@vboechat/eslint-config/lint"]
+  "extends": "@vboechat/eslint-config/lint"
 }
