@@ -1,34 +1,11 @@
 import GitHubAvatar from "@/components/GitHubAvatar";
 import LinkBox from "@/components/LinkBox";
 import PersonalInfo from "@/components/PersonalInfo";
+import { websites } from "@/utils/links";
 import { Box, Center, Container, Grid } from "@chakra-ui/react";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
-  const websites = [
-    {
-      websiteName: "Website (Soon)",
-      websiteUrl: "https://vboechat.github.io/",
-    },
-    {
-      websiteName: "LinkedIn",
-      websiteUrl:
-        "https://www.linkedin.com/in/victor-ribeiro-boechat-641225238/",
-    },
-    {
-      websiteName: "GitHub",
-      websiteUrl: "https://www.github.com/vboechat",
-    },
-    {
-      websiteName: "Dev.to",
-      websiteUrl: "https://dev.to/vboechat",
-    },
-    {
-      websiteName: "CodeTrace",
-      websiteUrl: "https://codetrace.com/users/vboechat",
-    },
-  ];
-
   return (
     <>
       <NextSeo
