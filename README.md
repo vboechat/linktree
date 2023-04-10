@@ -21,4 +21,4 @@ This project was created using the following technologies/libraries/websites:
  - [Chakra UI](https://chakra-ui.com/)
  - [ESLint](https://eslint.org/)
  - [Favicon.io](https://favicon.io/)
- 
+ - [Cypress](https://www.cypress.io/) 
