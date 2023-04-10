@@ -7,7 +7,7 @@ describe("Home Page", () => {
     cy.get("h1").should("contain", "Victor Ribeiro Boechat");
   });
 
-  it("should be able to click and redirect to some page", () => {
+  it("should be able redirect to a page, LinkedIn is going to be an example", () => {
     cy.get('a[data-testid="LinkedIn"]')
       .should(
         "have.attr",
