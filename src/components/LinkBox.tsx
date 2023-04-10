@@ -6,7 +6,12 @@ type LinkBoxProps = {
 };
 
 const LinkBox = (linkProps: LinkBoxProps) => (
-  <a href={linkProps.websiteUrl} target="_blank" rel="noreferrer">
+  <a
+    href={linkProps.websiteUrl}
+    target="_blank"
+    rel="noreferrer"
+    data-testid={linkProps.websiteName}
+  >
     <Flex
       alignItems="center"
       backgroundColor="blue.200"
